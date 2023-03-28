@@ -36,7 +36,7 @@ function NavSec() {
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto">
+          <Nav navbar>
             <NavItem>
               <Link to='/'>Home</Link>
             </NavItem>
