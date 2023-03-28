@@ -2,6 +2,7 @@ import React from "react";
 import './styles/main.scss'
 import HomeMain from "./home/HomeMain";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import './styles/animation.scss'
 
 
 
