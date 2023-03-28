@@ -1,13 +1,19 @@
 import React from "react";
+import './styles/main.scss'
+import HomeMain from "./home/HomeMain";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 
 
 function Routing() {
   return (
-    <div >
+    <Router >
+      <Switch>
+        <Route path="/" exact component={HomeMain} />
+      </Switch>
 
-    </div>
+    </Router>
   );
 }
 
