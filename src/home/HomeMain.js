@@ -1,6 +1,7 @@
 import React from 'react'
 import NavSec from './NavSec'
 import Reveal from 'react-reveal/Reveal'
+import Aboutinfo from './Aboutinfo'
 
 function HomeMain() {
   return (
@@ -8,6 +9,7 @@ function HomeMain() {
       <Reveal effect='animNav'>
         <NavSec />
       </Reveal>
+      <Aboutinfo />
 
     </>
   )
