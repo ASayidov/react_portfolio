@@ -19,7 +19,7 @@ function Aboutinfo() {
           <p className='description'>Frontend Developer, IT engineer from Uzbekistan, Fergana region. Welcome to my  personal website. </p>
         </Reveal>
         <div className='buttons' >
-          <Link className='linkBtn' to="./">
+          <Link className='linkBtn' to="./about-me">
             Aboute me
           </Link>
           <Link className='linkBtn' to="./portfolio">
