@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+//color
+$homeButtonColor: #2b2b2b;
+$homeButtonColor2: #91ff00;
+$socIconcolor:#91ff00;
+$fontFamily: 'Monserrat', sans-serif;
+
+
 html{
   overflow-x: hidden;
 }
@@ -6,6 +14,7 @@ body {
   background-color: #333!important;
   overflow-x: hidden;
 }
+//nav
 nav{
   padding: 15px 80px !important;
   animation: animNav 1s ease;
@@ -13,7 +22,8 @@ nav{
     font-size: 25px;
     color: #fff!important;
     font-family: 'Montserrat', sans-serif;
-     b{ //logo bold text
+      //logo bold text
+     b{
       font-family: 'Montserrat', sans-serif;
       color: #fff;
       font-weight: 700;
@@ -41,6 +51,8 @@ nav{
   }
 }
 
+//nav fixed
+
 nav.fixed {
   padding: 15px 80px!important;
   position: fixed;
@@ -51,5 +63,60 @@ nav.fixed {
   backdrop-filter: blur(10px);
   background-color: #333333cf;
   box-shadow: 0 5px 15px blur #0c0c0cde;
+
+}
+
+// about
+.aboutinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 70px;
+    .side1{
+      width: 75%;
+      margin: 20px 0;
+      .title{
+          font-size: 70px;
+          font-family: 'Montserrat', sans-serif;
+          color: #fff;
+          font-weight: 700;
+          }
+      .description {
+                width: 75%;
+                color: #aaa;
+                margin: 15px 3px 60px;
+                font-size: 20px;
+                font-family: "Montserrat", sans-serif;
+          }
+      .buttons {
+        .linkBtn{
+          background-color: $homeButtonColor;
+          padding: 17px 40px;
+          color: #fff;
+          font-size: 20px;
+          text-decoration: none;
+          font-family: $fontFamily;
+          font-weight: 500;
+          &:nth-child(2){
+            margin-left: 10px;
+            background-color: $homeButtonColor2;
+            color: #000;
+              }
+            }
+          }
+      .socialNet {
+            margin-top: 45px;
+            .socLinks {
+              padding: 0 30px 0 0;
+              .iconSvg {
+                  font-size: 35px;
+                  color: #fff;
+                  &:hover {
+                      color: $socIconcolor;
+                  }
+              }
+            }
+        }
+    }
 
 }

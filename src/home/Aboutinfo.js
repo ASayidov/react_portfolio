@@ -17,13 +17,13 @@ function Aboutinfo() {
   // }, [])
 
   return (
-    <div className='aboutInfo'>
+    <div className='aboutinfo'>
       <div className='side2'>
         <img src={myImage} alt='my image' />
       </div>
       <div className='side1'>
-        <h1>Hi, I'm Abdullajon!</h1>
-        <p>Frontend Developer, IT engineer from Uzbekistan, Fergana region. Welcome to my  personal website. Frontend Developer, IT engineer from Uzbekistan, Fergana region. Welcome to my  personal website.</p>
+        <h1 className='title'>Hi, I'm Abdullajon!</h1>
+        <p className='description'>Frontend Developer, IT engineer from Uzbekistan, Fergana region. Welcome to my  personal website. </p>
         <div className='buttons' >
           <Link className='linkBtn' to="./">
             Aboute me
@@ -33,10 +33,10 @@ function Aboutinfo() {
           </Link>
         </div>
         <div className='socialNet'>
-          <a href='#' target='_blank'><Telegram /></a>
-          <a href='#' target='_blank'><Instagram /></a>
-          <a href='#' target='_blank'><Facebook /></a>
-          <a href='#' target='_blank'><GitHub /></a>
+          <a className='socLinks' href='#' target='_blank'><Telegram className='iconSvg' /></a>
+          <a className='socLinks' href='#' target='_blank'><Instagram className='iconSvg' /></a>
+          <a className='socLinks' href='#' target='_blank'><Facebook className='iconSvg' /></a>
+          <a className='socLinks' href='#' target='_blank'><GitHub className='iconSvg' /></a>
 
 
 
