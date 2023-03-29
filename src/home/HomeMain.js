@@ -2,6 +2,7 @@ import React from 'react'
 import NavSec from './NavSec'
 import Reveal from 'react-reveal/Reveal'
 import Aboutinfo from './Aboutinfo'
+import Footer from '../footer/Footer'
 
 function HomeMain() {
   return (
@@ -10,6 +11,7 @@ function HomeMain() {
         <NavSec />
       </Reveal>
       <Aboutinfo />
+      <Footer />
 
     </>
   )
