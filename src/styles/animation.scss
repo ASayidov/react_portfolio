@@ -33,3 +33,20 @@
 .animNav {
   animation-name: animNav;
 }
+
+//portfolio projects animation
+
+@keyframes portfolioAnim{
+  from {
+    transform: translateY(90px);
+    opacity: 0.3s;
+      }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.aportfolioAnim {
+  animation-name: portfolioAnim;
+}
