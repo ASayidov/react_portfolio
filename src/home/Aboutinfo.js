@@ -1,29 +1,23 @@
-// import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import myImage from "../img/photoforweb.png"
 import { Facebook, GitHub, Instagram, Telegram } from '@material-ui/icons'
+import { Reveal } from 'react-reveal'
 
-// import { Telegram } from '@mui/icons-material';
-// import db from '../firebase/config'
+
 
 
 function Aboutinfo() {
 
-  // const [portfolios, setPortfolios] = useState([])
-  // useEffect(() => {
-  //   db.collection('portfolio').onSnapshot((snapshot) => {
-  //     setPortfolios(snapshot.docs.map(doc => doc.data))
-  //   })
-  // }, [])
-
   return (
     <div className='aboutinfo'>
       <div className='side2'>
-        <img src={myImage} alt='my image' />
+        <img className='myImage' src={myImage} alt='my image' />
       </div>
       <div className='side1'>
-        <h1 className='title'>Hi, I'm Abdullajon!</h1>
-        <p className='description'>Frontend Developer, IT engineer from Uzbekistan, Fergana region. Welcome to my  personal website. </p>
+        <Reveal effect="fadeInUp" duration='1250'>
+          <h1 className='title'>Hi, I'm Abdullajon!</h1>
+          <p className='description'>Frontend Developer, IT engineer from Uzbekistan, Fergana region. Welcome to my  personal website. </p>
+        </Reveal>
         <div className='buttons' >
           <Link className='linkBtn' to="./">
             Aboute me
