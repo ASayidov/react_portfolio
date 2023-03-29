@@ -13,7 +13,7 @@ function Portfolio() {
       <Reveal effect='fadeInUp' duration="1250">
         <PageInfo />
       </Reveal>
-      <Reveal effect='portfolioAnim' duration="1260">
+      <Reveal effect='portfolioAnim' duration="1700">
         <Project />
       </Reveal>
     </>

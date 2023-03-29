@@ -154,3 +154,57 @@ nav.fixed {
       @include PageTitle2()
     }
 }
+
+// projects
+
+.row {
+  .col-md-12 {
+    padding-top: 50px;
+    .projectCard {
+      display: flex;
+      margin: 50px 0;
+      .projectImage {
+        width: 50%;
+      }
+      .projectTitles {
+        margin: 75px 80px 0;
+        .projectAbout{
+          .projectName{
+            color: #fff;
+            font-weight: 600;
+            font-family: $fontFamily;
+          }
+          .projectDescription {
+            color: #aaa;
+            margin: 10px 0 50px;
+            font-family: $fontFamily;
+
+          }
+        }
+        .projectButtons {
+          .buttons {
+            background-color: #2b2b2b;
+            padding: 17px 35px;
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+            font-family: $fontFamily;
+            font-weight: 500;
+            .svg{
+              margin-left: 10px;
+            }
+            &:nth-child(2){
+              background-color: $homeButtonColor2;
+              color: #000;
+              margin-left: 30px;
+            }
+          }
+        }
+      }
+    }
+    .zig {
+      flex-direction: row-reverse;
+      margin: 100px 0;
+    }
+  }
+}
