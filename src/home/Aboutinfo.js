@@ -1,12 +1,15 @@
-import React, { useState, useEffect } from 'react'
+// import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import myImage from "../img/photoforweb.png"
+import { Facebook, GitHub, Instagram, Telegram } from '@material-ui/icons'
+
+// import { Telegram } from '@mui/icons-material';
 // import db from '../firebase/config'
 
 
 function Aboutinfo() {
 
-  const [portfolios, setPortfolios] = useState([])
+  // const [portfolios, setPortfolios] = useState([])
   // useEffect(() => {
   //   db.collection('portfolio').onSnapshot((snapshot) => {
   //     setPortfolios(snapshot.docs.map(doc => doc.data))
@@ -30,10 +33,14 @@ function Aboutinfo() {
           </Link>
         </div>
         <div className='socialNet'>
-          <a href='#' target='_blank'></a>
-          <a href='#' target='_blank'></a>
-          <a href='#' target='_blank'></a>
-          <a href='#' target='_blank'></a>
+          <a href='#' target='_blank'><Telegram /></a>
+          <a href='#' target='_blank'><Instagram /></a>
+          <a href='#' target='_blank'><Facebook /></a>
+          <a href='#' target='_blank'><GitHub /></a>
+
+
+
+
         </div>
       </div>
 
