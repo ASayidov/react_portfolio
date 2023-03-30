@@ -375,3 +375,69 @@ $togglerMenu:#91ff00;
     }
   }
 }
+
+
+//portfolio
+
+@media (min-width:320px) and (max-width:330px) {
+  .titles {
+    h3 {
+      font-size: 30px!important;
+    }
+    p {
+      font-size: 20px!important;
+    }
+  }
+  .row {
+    .col-md-12 {
+      padding-top: 0;
+      .projectCard {
+        display: inline-block;
+         .projectImage {
+          width: 100%;
+        }
+        .projectTitles {
+          margin: 30px 0;
+          .projectAbout {
+            .projectName {
+              font-size: 20px;
+            }
+            .projectDescription {
+              font-size: 15px;
+            }
+          }
+        }
+        .projectButtons {
+          a {
+            padding: 13px 10px!important;
+            font-size: 13px!important;
+            &:nth-child(2) {
+              margin-left: 10px!important;
+            }
+          }
+        }
+      }
+      .zig {
+        .projectCard {
+          .projectTitles {
+            .projectAbout {
+              .projectDescription {
+                 width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//footer
+
+@media screen and (max-width:500px) {
+  .footer {
+    p {
+      font-size: 13px;
+    }
+  }
+}
