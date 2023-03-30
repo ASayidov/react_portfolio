@@ -35,7 +35,8 @@ function Project() {
               <div className='projectTitles' >
                 <div className='projectAbout'>
                   <h3 className='projectName'>ToDo List</h3>
-                  <p className='projectDescription'>Html, CSS(bootstrap), JS project</p>
+                  <p className='projectDescription'>Create, remove, update, edit, delete list.
+                    Html, CSS(bootstrap), JS project</p>
                 </div>
                 <div className='projectButtons'>
                   <a href='https://github.com/ASayidov/CRUD-TodoList' target='_blank' className='buttons'>
