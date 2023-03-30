@@ -3,6 +3,7 @@ import './styles/main.scss'
 import HomeMain from "./home/HomeMain";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './styles/animation.scss'
+import './styles/responsive.scss'
 import Portfolio from "./portfolio/Portfolio";
 import About from "./about_me/About";
 
