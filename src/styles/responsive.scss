@@ -643,6 +643,179 @@ $togglerMenu:#91ff00;
   }
 }
 
+//about me
+
+@media screen and (max-width:1200px) {
+
+  .titles{ //page info
+    h3 {
+      font-size: 35px!important;
+    }
+    p {
+      font-size: 23px!important;
+    }
+
+  }
+
+  .aboutmeMain {
+    display: inline-block;
+    padding: 20px 180px;
+    img {
+      width: 100%;
+    }
+    span {
+      .aboutmeText {
+        padding: 15px 0;
+        font-size: 20px;
+      }
+    }
+  }
+
+
+
+}
+
+@media screen and (max-width:1024px) {
+
+  .titles{ //page info
+    h3 {
+      font-size: 35px!important;
+    }
+    p {
+      font-size: 23px!important;
+    }
+
+  }
+
+  .aboutmeMain {
+    display: inline-block;
+    padding: 20px 150px;
+    img {
+      width: 100%;
+    }
+    span {
+      .aboutmeText {
+        padding: 15px 0;
+        font-size: 17px;
+      }
+    }
+  }
+
+
+
+}
+
+@media screen and (max-width:500px) {
+
+  .titles{ //page info
+    h3 {
+      font-size: 35px!important;
+    }
+    p {
+      font-size: 23px!important;
+    }
+
+  }
+
+  .aboutmeMain {
+    display: inline-block;
+    padding: 20px 100px;
+    img {
+      width: 100%;
+    }
+    span {
+      .aboutmeText {
+        padding: 15px 0;
+        font-size: 17px;
+      }
+    }
+  }
+
+
+
+}
+
+@media screen and (max-width:500px) {
+
+  .titles{ //page info
+    h3 {
+      font-size: 35px!important;
+    }
+    p {
+      font-size: 23px!important;
+    }
+
+  }
+
+  .aboutmeMain {
+    display: inline-block;
+    padding: 0 10px;
+    img {
+      width: 100%;
+    }
+    span {
+      .aboutmeText {
+        padding: 15px 0;
+        font-size: 17px;
+      }
+    }
+  }
+
+
+
+}
+
+@media screen and (max-width:370px) {
+
+  .titles{ //page info
+    h3 {
+      font-size: 30px!important;
+    }
+    p {
+      font-size: 17px!important;
+    }
+
+  }
+
+  .aboutmeMain {
+    display: inline-block;
+    padding: 0 10px;
+    img {
+      width: 100%;
+    }
+    span {
+      .aboutmeText {
+        padding: 15px 0;
+        font-size: 17px;
+      }
+    }
+  }
+
+
+
+}
+
+@media (min-width:320px) and (max-width:330px) {
+  .aboutmeMain {
+    display: inline-block;
+    padding: 0 10px;
+    img {
+      width: 100%;
+    }
+    span {
+      .aboutmeText {
+        padding: 15px 0;
+        font-size: 17px;
+      }
+    }
+  }
+
+
+
+}
+
+
+
 //footer
 
 @media screen and (max-width:500px) {
