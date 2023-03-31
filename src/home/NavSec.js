@@ -47,7 +47,7 @@ function NavSec() {
               <Link to='/'>Setup</Link>
             </NavItem>
             <NavItem>
-              <Link to='/about-me'>Aboute me</Link>
+              <Link to='/about-me'>About me</Link>
             </NavItem>
 
           </Nav>
