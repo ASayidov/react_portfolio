@@ -72,9 +72,9 @@ function Portfolio() {
         {projects.map((value, id) => {
           return <Project key={id} classN={value.classes} proname={value.proname} prodesk={value.prodesk} imgsrc={value.imgsrc} altsrc={value.altsrc} gitsrc={value.gitsrc} demosrc={value.demosrc} />
         })}
-        <a href='https://app.netlify.com/teams/asayidov/sites' target="_blank" className='buttons-all'>
+        {/* <a href='https://app.netlify.com/teams/asayidov/sites' target="_blank" className='buttons-all'>
           Other projects <Link className='svg' />
-        </a>
+        </a> */}
       </Reveal>
       <Footer />
     </>
