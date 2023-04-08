@@ -27,9 +27,10 @@ function Project({ classN, proname, prodesk, imgsrc, altsrc, gitsrc, demosrc }) 
             </div>
 
           </Col>
-        </Row>
 
+        </Row>
       </Container>
+
     </>
   )
 }

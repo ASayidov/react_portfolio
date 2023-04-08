@@ -253,6 +253,7 @@ nav.fixed {
   padding: 20px 0 0;
   border-top: 1px solid #aaa;
   text-align: center;
+  margin-top: 20px;
   p{
     font-size: 17px;
     color: #fff;
@@ -261,4 +262,25 @@ nav.fixed {
       color: rgb(255, 0, 0);
     }
   }
+}
+
+.buttons-all {
+  display: block;
+  max-width: 200px;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: $fontFamily;
+  font-weight: 500;
+  background-color: $homeButtonColor2;
+  color: #000;
+  margin: 0 auto;
+  .svg{
+  margin-left: 10px;
+    }
+}
+
+.buttons-all:hover{
+  color: #000;
 }
